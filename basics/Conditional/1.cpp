@@ -1,3 +1,5 @@
+//write a program to check whether a number is even or odd using if-else statement.
+
 #include <iostream>
 using namespace std;
 int main() {
