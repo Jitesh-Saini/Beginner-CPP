@@ -1,0 +1,20 @@
+// 6. Write a program to check if a number is even or odd.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a;
+	cin>>a;
+
+
+	if(a%2==0) {
+		cout<<"even"<<"\n";
+	}
+	else {
+		cout<<"odd"<<"\n";
+	}
+
+	return 0;
+}
