@@ -5,7 +5,7 @@
 using namespace std;
 void table(int a){
     for(int i=1; i<=10; i++){
-        cout<<a*i<<endl;
+        cout<<a<<"*"<<i<<" : "<<a*i<<endl;
     }
 }
 
