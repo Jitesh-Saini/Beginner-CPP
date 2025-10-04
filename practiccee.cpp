@@ -310,43 +310,43 @@
 
 
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main()
-{	
+// int main()
+// {	
     
-    int odd=0;
-    int even = 0;
-    int negative = 0;
+//     int odd=0;
+//     int even = 0;
+//     int negative = 0;
     
     
-	int arr[6]= {1,2,4,-3,6,-9};
+// 	int arr[6]= {1,2,4,-3,6,-9};
 
-	for(int i = 0; i<6; i++) {
+// 	for(int i = 0; i<6; i++) {
 	    
-	    if(arr[i]%2!=0 && arr[i]>0){
+// 	    if(arr[i]%2!=0 && arr[i]>0){
 	        
-	        odd++;
-	    }
-	    if(arr[i]%2==0 && arr[i]>0){
+// 	        odd++;
+// 	    }
+// 	    if(arr[i]%2==0 && arr[i]>0){
 	        
-	        even++;
-	    }
-	    if(arr[i]<0){
+// 	        even++;
+// 	    }
+// 	    if(arr[i]<0){
 	        
-	        negative++;
-	    }
+// 	        negative++;
+// 	    }
 		
-	}
-	cout<<odd<<endl;
-		cout<<even<<endl;
-				cout<<negative<<endl;
+// 	}
+// 	cout<<odd<<endl;
+// 		cout<<even<<endl;
+// 				cout<<negative<<endl;
 
 
 
-	return 0;
-}
+// 	return 0;
+// }
 
 
 
