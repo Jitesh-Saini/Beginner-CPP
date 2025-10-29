@@ -1,39 +1,27 @@
-// 5 Move all zeros to the end while maintaining order.
+// 4 Find the majority element (appears more than n/2 times).
+
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    vector<int> v = {0, 1, 3, 0, 2};
-    vector<int> store;
+    vector<int> v = {1, 2, 2, 3, 2};
+    map<int, int> m;
+    int size = v.size();
 
-    // step1
     for (auto x : v)
     {
-        if (x != 0)
+        m[x]++;
+    }
+
+    for (auto x : m)
+    {
+
+        if (x.second > size / 2)
         {
-            store.push_back(x);
+            cout << x.first;
+            return 0;
         }
-    }
-    // step2
-    int i = 0;
-    for (auto x : store)
-    {
-        v[i] = x;
-        i++;
-    }
-
-    // step3
-    i++; // ye nhi bhi lagaye toh bhi chlega
-    while (i < v.size())
-    {
-        v[i] = 0;
-        i++;
-    }
-
-    for (auto x : v)
-    {
-        cout << x << " ";
     }
 }
